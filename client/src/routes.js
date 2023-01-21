@@ -33,7 +33,7 @@ export const publicRoutes = [
         Component : Auth
     },
     {
-        path : DEVICE_ROUTE + '/:id', // чтобы когда делали запрос на сервер, могли получать это устройство
+        path : DEVICE_ROUTE + '/:id',
         Component : DevicePage
     },
 ]

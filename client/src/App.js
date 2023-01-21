@@ -5,13 +5,13 @@ import NavBar from './components/NavBar'
 import {observer} from "mobx-react-lite";
 
 
-function App = observer(() => {
+function App = ()  => {
   return (
       <BrowserRouter>
           <NavBar/>
           <AppRouter/>
       </BrowserRouter>
   );
-});
+};
 
 export default App;
